@@ -2,7 +2,7 @@
  * Filename: multi-request\src\index.ts
  * Path: multi-request
  * Created Date: Tuesday, April 27th 2021, 5:49:25 pm
- * Author: uparamasivam
+ * Author: Uloganathan Paramasivam
  *
  */
 
@@ -17,7 +17,7 @@ import { isValidUrl } from "./validateUrl";
  * @param reTryFailed - number of times try failed requests
  * @param timeOut - set timeout if request taking too long
  * @param batchSize - define bach size for concurrent fetch
- * @param headers - fetch headers
+ * @param headers - request headers
  * @returns - Promise with all the responses
  *
  */
@@ -38,10 +38,10 @@ export async function multiRequest(
   }
 
   /**
-   * Retriving fetch serially
+   * Retriving data using fetch
    * @param url
    * @param iteration - number of retry fetch
-   * @returns - fetch promise
+   * @returns - promise
    */
   async function getData(url: string, iteration: number = 1): Promise<any> {
     try {
@@ -56,7 +56,7 @@ export async function multiRequest(
   }
 
   /**
-   * Fetch data after checking URL validation
+   * Fetch data after checking URL validation if urlValidation set true
    * @param url
    * @returns
    */
