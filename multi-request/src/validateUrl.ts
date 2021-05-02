@@ -7,7 +7,7 @@
  */
 
 /**
- *
+ * Validating given url
  * @param url
  * @returns - true if url is valid
  */
