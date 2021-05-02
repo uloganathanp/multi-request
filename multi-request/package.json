@@ -1,0 +1,31 @@
+{
+  "name": "multi-api-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x \"tests/*.spec.ts\" npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.10",
+    "@types/jasmine-ajax": "^3.3.2",
+    "@types/node-fetch": "^2.5.10",
+    "abort-controller": "^3.0.0",
+    "jasmine": "^3.7.0",
+    "jasmine-ajax": "^4.0.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "dependencies": {
+    "abortcontroller-polyfill": "^1.7.1",
+    "node-fetch": "^2.6.1"
+  }
+}

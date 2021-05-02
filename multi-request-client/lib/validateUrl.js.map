@@ -1,0 +1,1 @@
+{"version":3,"file":"validateUrl.js","sourceRoot":"","sources":["../src/validateUrl.ts"],"names":[],"mappings":";AAAA;;;;;;GAMG;;;AAEH;;;;GAIG;AACI,MAAM,UAAU,GAAG,CAAC,GAAW,EAAE,EAAE;IACxC,IAAI;QACF,OAAO,OAAO,CAAC,IAAI,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC;KAC9B;IAAC,OAAO,CAAC,EAAE;QACV,OAAO,KAAK,CAAC;KACd;AACH,CAAC,CAAC;AANW,QAAA,UAAU,cAMrB"}
