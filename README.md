@@ -19,3 +19,6 @@ cd multi-request-client
 
 //To install node modues
 npm i 
+
+//to run testcases
+npm test
